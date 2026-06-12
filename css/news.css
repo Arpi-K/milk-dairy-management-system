@@ -1,0 +1,26 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.45)0px 25px 20px -20px;
+}
+.img-fluid{
+    height: 280px;
+    cursor: pointer;
+    transition: transform 2s, filter 1.5s ease-in-out;
+    transform-origin: center center;
+    filter: brightness(50%);
+}
+.img-fluid:hover{
+    filter: brightness(100%);
+    transform: scale(0.9);
+}
+.card-text{
+    font-size: 18px;
+}
+.col{
+    padding: 20px;
+}
